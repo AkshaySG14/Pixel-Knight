@@ -1,0 +1,656 @@
+
+pixelknight.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+rolling4
+  rotate: false
+  xy: 1, 81
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+rolling5
+  rotate: false
+  xy: 1, 41
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+rolling6
+  rotate: false
+  xy: 40, 81
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+rollingball
+  rotate: false
+  xy: 1, 1
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+attack7
+  rotate: false
+  xy: 40, 48
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+climbingattack4
+  rotate: false
+  xy: 79, 88
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+climbingspecattack4
+  rotate: false
+  xy: 40, 15
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+fallingattack4
+  rotate: false
+  xy: 105, 88
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+fallingspecattack4
+  rotate: false
+  xy: 131, 88
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+jumpattack4
+  rotate: false
+  xy: 157, 88
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+jumpspecattack4
+  rotate: false
+  xy: 183, 88
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+runattack4
+  rotate: false
+  xy: 209, 88
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+runspecattack4
+  rotate: false
+  xy: 235, 88
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+specattack7
+  rotate: false
+  xy: 261, 88
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+swattack4
+  rotate: false
+  xy: 287, 90
+  size: 24, 29
+  orig: 24, 29
+  offset: 0, 0
+  index: -1
+swspecattack4
+  rotate: false
+  xy: 313, 90
+  size: 24, 29
+  orig: 24, 29
+  offset: 0, 0
+  index: -1
+swattack3
+  rotate: false
+  xy: 339, 89
+  size: 21, 30
+  orig: 21, 30
+  offset: 0, 0
+  index: -1
+swspecattack3
+  rotate: false
+  xy: 362, 89
+  size: 21, 30
+  orig: 21, 30
+  offset: 0, 0
+  index: -1
+attack6
+  rotate: false
+  xy: 385, 88
+  size: 20, 31
+  orig: 20, 31
+  offset: 0, 0
+  index: -1
+climbingattack3
+  rotate: false
+  xy: 407, 88
+  size: 20, 31
+  orig: 20, 31
+  offset: 0, 0
+  index: -1
+climbingspecattack3
+  rotate: false
+  xy: 429, 88
+  size: 20, 31
+  orig: 20, 31
+  offset: 0, 0
+  index: -1
+fallingattack3
+  rotate: false
+  xy: 451, 88
+  size: 20, 31
+  orig: 20, 31
+  offset: 0, 0
+  index: -1
+fallingspecattack3
+  rotate: false
+  xy: 473, 88
+  size: 20, 31
+  orig: 20, 31
+  offset: 0, 0
+  index: -1
+jumpattack3
+  rotate: false
+  xy: 495, 88
+  size: 20, 31
+  orig: 20, 31
+  offset: 0, 0
+  index: -1
+jumpspecattack3
+  rotate: false
+  xy: 517, 88
+  size: 20, 31
+  orig: 20, 31
+  offset: 0, 0
+  index: -1
+runattack3
+  rotate: false
+  xy: 539, 88
+  size: 20, 31
+  orig: 20, 31
+  offset: 0, 0
+  index: -1
+runspecattack3
+  rotate: false
+  xy: 561, 88
+  size: 20, 31
+  orig: 20, 31
+  offset: 0, 0
+  index: -1
+specattack6
+  rotate: false
+  xy: 583, 88
+  size: 20, 31
+  orig: 20, 31
+  offset: 0, 0
+  index: -1
+attack8
+  rotate: false
+  xy: 605, 88
+  size: 19, 31
+  orig: 19, 31
+  offset: 0, 0
+  index: -1
+specattack8
+  rotate: false
+  xy: 626, 88
+  size: 19, 31
+  orig: 19, 31
+  offset: 0, 0
+  index: -1
+climbing1
+  rotate: false
+  xy: 647, 88
+  size: 18, 31
+  orig: 18, 31
+  offset: 0, 0
+  index: -1
+climbing2
+  rotate: false
+  xy: 667, 88
+  size: 18, 31
+  orig: 18, 31
+  offset: 0, 0
+  index: -1
+climbingidle1
+  rotate: false
+  xy: 687, 88
+  size: 18, 31
+  orig: 18, 31
+  offset: 0, 0
+  index: -1
+idle1
+  rotate: false
+  xy: 707, 88
+  size: 18, 31
+  orig: 18, 31
+  offset: 0, 0
+  index: -1
+idle2
+  rotate: false
+  xy: 727, 87
+  size: 18, 32
+  orig: 18, 32
+  offset: 0, 0
+  index: -1
+climbingidle2
+  rotate: false
+  xy: 747, 89
+  size: 18, 30
+  orig: 18, 30
+  offset: 0, 0
+  index: -1
+swimming3
+  rotate: false
+  xy: 767, 89
+  size: 18, 30
+  orig: 18, 30
+  offset: 0, 0
+  index: -1
+swimming4
+  rotate: false
+  xy: 787, 90
+  size: 18, 29
+  orig: 18, 29
+  offset: 0, 0
+  index: -1
+charge1
+  rotate: false
+  xy: 807, 88
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+charge3
+  rotate: false
+  xy: 825, 88
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+charge5
+  rotate: false
+  xy: 843, 88
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+climbingattack1
+  rotate: false
+  xy: 861, 88
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+climbingattack2
+  rotate: false
+  xy: 879, 88
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+climbingspecattack1
+  rotate: false
+  xy: 897, 88
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+climbingspecattack2
+  rotate: false
+  xy: 915, 88
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+falling2
+  rotate: false
+  xy: 933, 88
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+falling3
+  rotate: false
+  xy: 951, 88
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+falling4
+  rotate: false
+  xy: 969, 88
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+jump3
+  rotate: false
+  xy: 987, 88
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+jump4
+  rotate: false
+  xy: 1005, 88
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+attack1
+  rotate: false
+  xy: 66, 48
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
+attack2
+  rotate: false
+  xy: 66, 15
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
+rolling1
+  rotate: false
+  xy: 83, 55
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+rolling2
+  rotate: false
+  xy: 83, 22
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+rolling3
+  rotate: false
+  xy: 101, 55
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+run1
+  rotate: false
+  xy: 101, 22
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+run3
+  rotate: false
+  xy: 119, 55
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+run5
+  rotate: false
+  xy: 119, 22
+  size: 16, 31
+  orig: 16, 31
+  offset: 0, 0
+  index: -1
+attack3
+  rotate: false
+  xy: 137, 55
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
+attack4
+  rotate: false
+  xy: 137, 22
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
+attack5
+  rotate: false
+  xy: 154, 55
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
+charge2
+  rotate: false
+  xy: 171, 56
+  size: 16, 30
+  orig: 16, 30
+  offset: 0, 0
+  index: -1
+charge4
+  rotate: false
+  xy: 189, 56
+  size: 16, 30
+  orig: 16, 30
+  offset: 0, 0
+  index: -1
+charge6
+  rotate: false
+  xy: 207, 56
+  size: 16, 30
+  orig: 16, 30
+  offset: 0, 0
+  index: -1
+falling1
+  rotate: false
+  xy: 225, 56
+  size: 16, 30
+  orig: 16, 30
+  offset: 0, 0
+  index: -1
+fallingattack2
+  rotate: false
+  xy: 154, 22
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
+fallingspecattack2
+  rotate: false
+  xy: 171, 23
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
+jump1
+  rotate: false
+  xy: 243, 56
+  size: 16, 30
+  orig: 16, 30
+  offset: 0, 0
+  index: -1
+jump2
+  rotate: false
+  xy: 188, 24
+  size: 16, 30
+  orig: 16, 30
+  offset: 0, 0
+  index: -1
+run2
+  rotate: false
+  xy: 261, 56
+  size: 16, 30
+  orig: 16, 30
+  offset: 0, 0
+  index: -1
+run4
+  rotate: false
+  xy: 206, 24
+  size: 16, 30
+  orig: 16, 30
+  offset: 0, 0
+  index: -1
+run6
+  rotate: false
+  xy: 224, 24
+  size: 16, 30
+  orig: 16, 30
+  offset: 0, 0
+  index: -1
+swattack1
+  rotate: false
+  xy: 242, 24
+  size: 16, 30
+  orig: 16, 30
+  offset: 0, 0
+  index: -1
+swimming1
+  rotate: false
+  xy: 260, 24
+  size: 16, 30
+  orig: 16, 30
+  offset: 0, 0
+  index: -1
+fallingattack1
+  rotate: false
+  xy: 279, 56
+  size: 15, 30
+  orig: 15, 30
+  offset: 0, 0
+  index: -1
+swspecattack1
+  rotate: false
+  xy: 278, 24
+  size: 16, 30
+  orig: 16, 30
+  offset: 0, 0
+  index: -1
+runattack1
+  rotate: false
+  xy: 296, 57
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
+runattack2
+  rotate: false
+  xy: 313, 57
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
+runspecattack1
+  rotate: false
+  xy: 296, 24
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
+runspecattack2
+  rotate: false
+  xy: 313, 24
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
+specattack1
+  rotate: false
+  xy: 330, 56
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
+specattack2
+  rotate: false
+  xy: 347, 56
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
+specattack3
+  rotate: false
+  xy: 364, 56
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
+fallingspecattack1
+  rotate: false
+  xy: 330, 24
+  size: 15, 30
+  orig: 15, 30
+  offset: 0, 0
+  index: -1
+jumpattack1
+  rotate: false
+  xy: 347, 24
+  size: 15, 30
+  orig: 15, 30
+  offset: 0, 0
+  index: -1
+jumpattack2
+  rotate: false
+  xy: 364, 24
+  size: 15, 30
+  orig: 15, 30
+  offset: 0, 0
+  index: -1
+specattack4
+  rotate: false
+  xy: 381, 55
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
+specattack5
+  rotate: false
+  xy: 398, 55
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
+jumpspecattack1
+  rotate: false
+  xy: 415, 56
+  size: 15, 30
+  orig: 15, 30
+  offset: 0, 0
+  index: -1
+jumpspecattack2
+  rotate: false
+  xy: 432, 56
+  size: 15, 30
+  orig: 15, 30
+  offset: 0, 0
+  index: -1
+swattack2
+  rotate: false
+  xy: 381, 24
+  size: 15, 29
+  orig: 15, 29
+  offset: 0, 0
+  index: -1
+swimming2
+  rotate: false
+  xy: 449, 57
+  size: 15, 29
+  orig: 15, 29
+  offset: 0, 0
+  index: -1
+swspecattack2
+  rotate: false
+  xy: 398, 24
+  size: 15, 29
+  orig: 15, 29
+  offset: 0, 0
+  index: -1

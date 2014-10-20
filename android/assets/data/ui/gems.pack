@@ -1,0 +1,89 @@
+
+gems.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+diamond1
+  rotate: false
+  xy: 1, 96
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+diamond2
+  rotate: false
+  xy: 17, 96
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+diamond3
+  rotate: false
+  xy: 1, 77
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+emerald1
+  rotate: false
+  xy: 17, 77
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+emerald2
+  rotate: false
+  xy: 1, 58
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+emerald3
+  rotate: false
+  xy: 17, 58
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+ruby1
+  rotate: false
+  xy: 1, 39
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+ruby2
+  rotate: false
+  xy: 17, 39
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+ruby3
+  rotate: false
+  xy: 1, 20
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+sapphire1
+  rotate: false
+  xy: 17, 20
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+sapphire2
+  rotate: false
+  xy: 1, 1
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+sapphire3
+  rotate: false
+  xy: 17, 1
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1

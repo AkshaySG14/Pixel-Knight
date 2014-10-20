@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="50" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="mudworld" tilewidth="16" tileheight="16">
+  <image source="../levels/mudworld.png" width="512" height="64"/>
+  <tile id="11">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="torch" value=""/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="torch" value=""/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="spike" value=""/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="torchS" value=""/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="waterfall" value=""/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="water" value=""/>
+    <property name="wave" value=""/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="climbable" value=""/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="torch" value=""/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="spike" value=""/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="torchS" value=""/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="waterfall" value=""/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="water" value=""/>
+    <property name="wave" value=""/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="torch" value=""/>
+   </properties>
+  </tile>
+  <tile id="85">
+   <properties>
+    <property name="spike" value=""/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="87">
+   <properties>
+    <property name="torchS" value=""/>
+   </properties>
+  </tile>
+  <tile id="88">
+   <properties>
+    <property name="water" value=""/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="water" value=""/>
+    <property name="wave" value=""/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="94">
+   <properties>
+    <property name="platform" value=""/>
+   </properties>
+  </tile>
+  <tile id="103">
+   <properties>
+    <property name="log" value=""/>
+   </properties>
+  </tile>
+  <tile id="104">
+   <properties>
+    <property name="log" value=""/>
+   </properties>
+  </tile>
+  <tile id="105">
+   <properties>
+    <property name="log" value=""/>
+   </properties>
+  </tile>
+  <tile id="115">
+   <properties>
+    <property name="torch" value=""/>
+   </properties>
+  </tile>
+  <tile id="119">
+   <properties>
+    <property name="spike" value=""/>
+   </properties>
+  </tile>
+  <tile id="122">
+   <properties>
+    <property name="torchS" value=""/>
+   </properties>
+  </tile>
+  <tile id="123">
+   <properties>
+    <property name="waterfall" value=""/>
+   </properties>
+  </tile>
+  <tile id="124">
+   <properties>
+    <property name="water" value=""/>
+    <property name="wave" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Wallpaper" width="200" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt00ENAAAIxDB0ox4Fx5uENpmEVQEAAAAAAAAAAAAAAAAAAAAAAAAAAADAH70E3/kDMn9A5g/I/AGZPwAAAAAAAAAAAAAAgOsGEe8UBQ==
+  </data>
+ </layer>
+ <layer name="Background" width="200" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmm2OgyAQQLnG/pKblGvsVXr6jYlm6XRAPgX1vWRSY4u14zwZ2hoDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAM3okBcGdSPcAVeCL4ARAGPwDC4EcdyxZWbNthZzQHd6kh/AizeI+aA+vjawsntp/uyV1qqKUfM36+HGo/uzX/jmieLAlxF+5SP0/1Q6vN2s/ulGPabb/23Cz0uI53qZ+n+CFrc7/Ha35o3vjb1nzW/ksZZ739LXLX6/r0us53qZ/RbpyVn5f57n3kvv0ccuvaH7d4x3eZ43evNPBjDC39uEuU+uHPKXKuSn1f1/k6tTruEb2Oezaja3HGKF2LWKPPSy3WNk+JKzHL+bbI808ktHXJ2+j9V+h5f82hrXVG191VAvJpkeffSITWIbkhHdO+523JjHWbezz8qKe3H62+5z1znojlpTRnswTkcZYfLeYP/MCNs+ntR6v+ivkDP0bQ24/Yf6rsdjyt95I9mTXldZEbsfcqzdkMAfm0yLOcI7SoXX/YirG54TrkbJaAPFrkOPT/Et+N2v7KVYwl+rjR43vD2WiR59B3rlqUXlt+B5zHj92LNVzCa69MKz+cSeuzSq+t9tvh+p4lHh59bvgmlGc/rPn8f+keV6bXfSjUa5U4Ius+duxaD/Hjk6PeWfYNTmy77Tgl96nRYQvHHeVwz6O8t7iKc9XmD/zoQ+h6yjnbmm9nnHjd+ppYnkc7EAtXOC6Uu6O81eTDeONTwI98Unoo6Yrvwr5tzXd/dUU/SkP6EMubBD/OJ7Xuc3sp/34oeyo/Vq7ohysc5+dEmyNitDjvFJ7mR2mdHzkg617rD1zC+V3Rj6VwnJ+zXK7gx0yOtLjvO2W/E48xP2LepPIkP3ZyrtkoZqv3XErv+9Z89j259dyS0XU+yq0UJ0a68SRkH2TNOB80Rtfr2bFSMvfPNLfclZFzRQ+03iV1n9wfquUVvyatSa9fK7ZzxuIG1NLbD7+2j9ZeR+s0Z+L/68ATkPwBhvTZHQ==
+  </data>
+ </layer>
+ <layer name="Foreground" width="200" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztm02O5DYMhXmALONtigcYoDcDzLJ0ivRVsszREwMm5vkVKUv+qbKr+AGEVLIkyzKfKLlnBhG5SZIkHoOkPpIkYnj1AJLkxKQ+kiQm9ZEkMamPJIlJfSRJTOojSWJSH0kSk/pIkpjUR5LEpD6SJCb1kSQxqY8kiUl9JElM6iNJYlIfSRLj6WM4wJLkikT6QH52Wss9kuQKtOjjiHskyRVo0cdXR39e3dRHMnLFPXqrPlqf4VP0cQPT4Jo6eXXqfwpb/CD1cU72+j5R/rf7lI7m6erdSX28pz4QjBt3mfs8+7/Z4LRDfVj5u5P6eF992HN52tDGPvB3r6nM92e6sp+We2ztp3UeejibPnA9S334c/BnkGdfMd8bDeOJ0r3uMtedpd7+zMpr55zaOYjvMzj5NTEt9bGsj5s87i+ubDgH7MMqcz/3zuLmb0Xq+oiIfMPGU8TXFZfxddTMIPP3xc+wdaxL17b0eyQ1fZhGtsaPZzGOF/9Oueee3uZgBH3N00OR+VqP+tDp91+TtbBmL7ME65z7HctuMo9XW8f6TvpArqKPI0F9jHhrcBHfjwZq06uPveH4zmcq1M0f0K4lfxRn08cV7J9pvN+TeeA174wQ+Uq0L/Tmp+UconIOfXg68PZhZj/k93xwXif7cfCYeW16Jq+671ZQH62Y72IfS/rAugieP/B7rbceP3vdYK5+Dkx99BPp41vieLK3PlgHuNfivT3+FqinlWdcg/dMqNMC48A8t1GnPbaz53gGqY9+Xh0/0HeKzDXBZ5KByoSu7wlqkTXpPUO0ryryqAnMP5PURz9n0Af6UZHH/Rb2g3swcergtS3YvWxcGB/4eWtnkEL9vkobIyqpj15a9WF7rdEftuqDjc/i3tnc29fg/sVLzdYw3uvvwDi2lIV+DNQTzyHScq32zqI6WukXx9dqWumLeXd9IJ4+Ws+60flDnfJCNsh8j8LrtBeHSs+D0Th7zu4Mrg1enDmDPtjfvTgY2afrY3z+1vN57/14fcezB48B16pBHr9tcZ0ob/Ysoj2XSH1N3rpOG97/Px2J9LoUB5lP10eNPfTBe6Eij37Nv63tl8zP8RxLLP8l+8SSGvidL9qPncm8b4BGj17NWjmDPpbWUO85TR9L9cxGtuoDYzTGDpXHb0A4Dv6O3/K9X2SuLW/fE/1esH+vatG74fnew7R9Pk9rpg9bB7112Wxkqz7M7pUx1f6W3quPtePcE4xvlkZxz6vHZV7qsbe/92rDxhfN55p5vq1oY+2UytjX2Uwf3rUS3GerPpjo3pjfEj/2GueRsG/1vI+efqK+jzAcx576WIuNSamsyG9/Q22PhvFDqR72gxyhDxtjBMaaq+vDW2vXaMHr0+vH3iXfrzj1sc1SbFjSM6/DHq9Yh7RyHedgNNOHgtkzH/X9KhpXaWh7VX3sERtqeHE3isd7GPdXJNZOa/z4NaXoe1jGPunVx764jf3Gazxmna4XmcePAqZS19gR+mjhNqVX1Af7ksrje8G4rk6Zl+fU4H0C+nRrTNjTnh0/+P44//asmLffBdIi/v7KLOJK+tjyHXRveP6jFO2+kI/8XuXRR9RJMW/9tNiSHpTqv3p/5c2BV86/8XxeIOW+vH9fwmuWiD/vWGevb27PsDMQ+bzKfH7Zf0ulDFOvzGtTW4897fBYo/n0fGgtLXHsm0ydOlFZkXg+sR3qg/XA60eR5THr1ol5Qzw/7J3fyN9b/Eidvrx+onJuv6QPby1l/1Kqg21lYa6iVJ1naJkPddqXKTV9qNMuek81K8HcfRL8DjC/dn6LPL4jrdSv+X+htEVv6G9bYzlrraeMyz07Yv9RnHfgzf9YJ6kTrVutOvB8l/1XxT+Xqsx9eYtpYJ+oD3wH+I7G+Uj6aVnTl8q8OvyezI8LlS3psMVKYP8B47yzPg==
+  </data>
+ </layer>
+ <layer name="Objects" width="200" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+ <objectgroup name="Spawns" width="200" height="50">
+  <object name="Main Spawn" x="18" y="724" width="71" height="39">
+   <properties>
+    <property name="spawnmain" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 1" x="185" y="706" width="29" height="24">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 2" x="284" y="706" width="29" height="24">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 3" x="381" y="706" width="29" height="24">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 4" x="566" y="714" width="25" height="20">
+   <properties>
+    <property name="doll" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 5" x="844" y="689" width="29" height="24">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 6" x="780" y="640" width="29" height="24">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 7" x="842" y="594" width="29" height="24">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 8" x="904" y="562" width="29" height="24">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 9" x="842" y="509" width="29" height="24">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 10" x="903" y="433" width="29" height="24">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 11" x="779" y="432" width="29" height="24">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 12" x="434" y="435" width="31" height="28">
+   <properties>
+    <property name="roller" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 13" x="227" y="308" width="31" height="28">
+   <properties>
+    <property name="charger" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 14" x="1070" y="478" width="12" height="16">
+   <properties>
+    <property name="bfish" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 15" x="1073" y="510" width="12" height="16">
+   <properties>
+    <property name="bfish" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 16" x="1072" y="543" width="12" height="16">
+   <properties>
+    <property name="bfish" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 18" x="1247" y="444" width="12" height="16">
+   <properties>
+    <property name="slinger" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 19" x="1368" y="515" width="12" height="16">
+   <properties>
+    <property name="slinger" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 20" x="1260" y="601" width="12" height="16">
+   <properties>
+    <property name="slinger" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 21" x="1390" y="698" width="12" height="16">
+   <properties>
+    <property name="roller" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 21" x="1209" y="693" width="12" height="16">
+   <properties>
+    <property name="roller" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 22" x="1599" y="590" width="12" height="16">
+   <properties>
+    <property name="charger" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 23" x="1667" y="498" width="12" height="16">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 24" x="1732" y="498" width="12" height="16">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 25" x="1790" y="498" width="12" height="16">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 26" x="2521" y="458" width="12" height="16">
+   <properties>
+    <property name="golem" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 27" x="2180" y="402" width="12" height="16">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 28" x="2226" y="402" width="12" height="16">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 29" x="2274" y="402" width="12" height="16">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 30" x="2321" y="402" width="12" height="16">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 31" x="1980" y="461" width="12" height="16">
+   <properties>
+    <property name="slinger" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn 32" x="1846" y="458" width="12" height="16">
+   <properties>
+    <property name="slinger" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Camera Bounds" width="200" height="50">
+  <object name="Left Bounds" x="1" y="593" width="22" height="183">
+   <properties>
+    <property name="leftbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Lower Bounds" x="44" y="778" width="207" height="20">
+   <properties>
+    <property name="lowerbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Right Bounds" x="3197" y="616" width="48" height="187">
+   <properties>
+    <property name="rightbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change 1" x="15" y="710" width="94" height="60">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change 2" x="818" y="428" width="74" height="147">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change 3" x="735" y="593" width="222" height="176">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change 4" x="735" y="436" width="70" height="28">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change 5" x="900" y="432" width="264" height="34">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change 5" x="1025" y="465" width="111" height="86">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change 5" x="1166" y="367" width="260" height="68">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change 5" x="1202" y="484" width="230" height="139">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change 5" x="1200" y="625" width="227" height="95">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change 5" x="1439" y="492" width="1284" height="119">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change 5" x="1785" y="381" width="935" height="100">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change 5" x="1858" y="483" width="115" height="81">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change 5" x="1617" y="615" width="240" height="108">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Creature Bounds" width="200" height="50">
+  <object name="Doll Bounds 1" x="548" y="689" height="47">
+   <properties>
+    <property name="dollbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Doll Bounds 2" x="611" y="690" height="58">
+   <properties>
+    <property name="dollbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Basic Fish Bounds 1" x="1028" y="477" height="18">
+   <properties>
+    <property name="bfishbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Basic Fish Bounds 2" x="1130" y="477" width="2" height="20">
+   <properties>
+    <property name="bfishbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Basic Fish Bounds 3" x="1029" y="500" height="18">
+   <properties>
+    <property name="bfishbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Basic Fish Bounds 4" x="1131" y="500" width="6" height="23">
+   <properties>
+    <property name="bfishbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Basic Fish Bounds 5" x="1029" y="524" height="18">
+   <properties>
+    <property name="bfishbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Basic Fish Bounds 6" x="1131" y="524" width="6" height="23">
+   <properties>
+    <property name="bfishbounds" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Slopes" width="200" height="50"/>
+ <objectgroup name="Gems" width="200" height="50">
+  <object x="479" y="653" height="1"/>
+  <object name="Gem" x="497" y="660" width="43" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="387" y="661" width="43" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="290" y="662" width="43" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="194" y="662" width="43" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="902" y="691" width="18" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="113" y="644" width="43" height="26">
+   <properties>
+    <property name="sapphire" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="850" y="644" width="43" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="787" y="596" width="43" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="852" y="546" width="43" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="902" y="514" width="43" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="114" y="296" width="43" height="26">
+   <properties>
+    <property name="sapphire" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="1506" y="579" width="43" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="1800" y="669" width="43" height="26">
+   <properties>
+    <property name="ruby" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="2407" y="576" width="43" height="26">
+   <properties>
+    <property name="ruby" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="2325" y="421" width="43" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="2274" y="422" width="43" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="2226" y="420" width="43" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="2177" y="420" width="43" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="1899" y="516" width="43" height="26">
+   <properties>
+    <property name="ruby" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="1697" y="579" width="43" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="1763" y="578" width="43" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="1025" y="533" width="43" height="26">
+   <properties>
+    <property name="sapphire" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Platforms" width="200" height="50"/>
+ <objectgroup name="Destructibles" width="200" height="50">
+  <object name="Destructible 1" x="960" y="431" width="15" height="32">
+   <properties>
+    <property name="connector" value=""/>
+    <property name="gate" value=""/>
+   </properties>
+  </object>
+  <object name="Destructible 2" x="96" y="432" width="46" height="32">
+   <properties>
+    <property name="lever" value=""/>
+   </properties>
+  </object>
+  <object name="Destructible 3" x="1137" y="432" width="15" height="32">
+   <properties>
+    <property name="connector" value=""/>
+    <property name="gate" value=""/>
+   </properties>
+  </object>
+  <object name="Destructible 4" x="1102" y="537" width="20" height="19">
+   <properties>
+    <property name="lever" value=""/>
+   </properties>
+  </object>
+  <object name="Destructible 5" x="2063" y="575" width="15" height="32">
+   <properties>
+    <property name="cart" value=""/>
+    <property name="connector" value=""/>
+   </properties>
+  </object>
+  <object name="Destructible 6" x="2017" y="571" width="20" height="19">
+   <properties>
+    <property name="lever" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Platform Bounds" width="200" height="50"/>
+ <objectgroup name="Respawn Points" width="200" height="50">
+  <object name="Respawn 1" x="737" y="733" width="19" height="34">
+   <properties>
+    <property name="rspwn" value=""/>
+   </properties>
+  </object>
+  <object name="Respawn 1" x="979" y="429" width="19" height="34">
+   <properties>
+    <property name="rspwn" value=""/>
+   </properties>
+  </object>
+  <object name="Respawn 1" x="1441" y="565" width="55" height="40">
+   <properties>
+    <property name="rspwn" value=""/>
+   </properties>
+  </object>
+  <object name="Respawn 1" x="1968" y="572" width="19" height="34">
+   <properties>
+    <property name="rspwn" value=""/>
+   </properties>
+  </object>
+  <object name="Respawn 1" x="2691" y="441" width="32" height="35">
+   <properties>
+    <property name="rspwn" value=""/>
+   </properties>
+  </object>
+  <object name="Respawn 1" x="2082" y="443" width="19" height="34">
+   <properties>
+    <property name="rspwn" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="End Door" width="200" height="50">
+  <object name="End Door" x="1504" y="433" width="32" height="46">
+   <properties>
+    <property name="enddoor" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

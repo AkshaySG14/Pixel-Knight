@@ -1,0 +1,19 @@
+
+go.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+go
+  rotate: false
+  xy: 1, 1
+  size: 50, 25
+  orig: 50, 25
+  offset: 0, 0
+  index: -1
+go2
+  rotate: false
+  xy: 53, 1
+  size: 50, 25
+  orig: 50, 25
+  offset: 0, 0
+  index: -1

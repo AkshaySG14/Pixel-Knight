@@ -1,0 +1,152 @@
+
+mudgolem.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bullet1
+  rotate: false
+  xy: 1, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+bullet2
+  rotate: false
+  xy: 53, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+bullet3
+  rotate: false
+  xy: 105, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+throw1
+  rotate: false
+  xy: 157, 3
+  size: 34, 48
+  orig: 34, 48
+  offset: 0, 0
+  index: -1
+throw2
+  rotate: false
+  xy: 193, 3
+  size: 34, 48
+  orig: 34, 48
+  offset: 0, 0
+  index: -1
+throw3
+  rotate: false
+  xy: 229, 3
+  size: 34, 48
+  orig: 34, 48
+  offset: 0, 0
+  index: -1
+attack1
+  rotate: false
+  xy: 265, 6
+  size: 34, 45
+  orig: 34, 45
+  offset: 0, 0
+  index: -1
+idle1
+  rotate: false
+  xy: 301, 3
+  size: 31, 48
+  orig: 31, 48
+  offset: 0, 0
+  index: -1
+idle2
+  rotate: false
+  xy: 334, 3
+  size: 31, 48
+  orig: 31, 48
+  offset: 0, 0
+  index: -1
+run3
+  rotate: false
+  xy: 367, 3
+  size: 31, 48
+  orig: 31, 48
+  offset: 0, 0
+  index: -1
+run4
+  rotate: false
+  xy: 400, 3
+  size: 31, 48
+  orig: 31, 48
+  offset: 0, 0
+  index: -1
+run1
+  rotate: false
+  xy: 433, 4
+  size: 31, 47
+  orig: 31, 47
+  offset: 0, 0
+  index: -1
+run2
+  rotate: false
+  xy: 466, 5
+  size: 31, 46
+  orig: 31, 46
+  offset: 0, 0
+  index: -1
+attack2
+  rotate: false
+  xy: 499, 10
+  size: 29, 41
+  orig: 29, 41
+  offset: 0, 0
+  index: -1
+attack3
+  rotate: false
+  xy: 530, 15
+  size: 30, 36
+  orig: 30, 36
+  offset: 0, 0
+  index: -1
+attack5
+  rotate: false
+  xy: 562, 24
+  size: 35, 27
+  orig: 35, 27
+  offset: 0, 0
+  index: -1
+attack6
+  rotate: false
+  xy: 599, 28
+  size: 35, 23
+  orig: 35, 23
+  offset: 0, 0
+  index: -1
+attack4
+  rotate: false
+  xy: 636, 22
+  size: 30, 29
+  orig: 30, 29
+  offset: 0, 0
+  index: -1
+shockwave1
+  rotate: false
+  xy: 668, 31
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+shockwave2
+  rotate: false
+  xy: 690, 31
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+shockwave3
+  rotate: false
+  xy: 712, 31
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1

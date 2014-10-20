@@ -1,0 +1,33 @@
+
+watershooter.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+ball1
+  rotate: false
+  xy: 1, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ball2
+  rotate: false
+  xy: 53, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+idle1
+  rotate: false
+  xy: 105, 31
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+idle2
+  rotate: false
+  xy: 105, 9
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1

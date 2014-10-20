@@ -1,0 +1,278 @@
+
+objects.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+wheel
+  rotate: false
+  xy: 1, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+spike_flyer
+  rotate: false
+  xy: 53, 64
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+box
+  rotate: false
+  xy: 1, 10
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+box_break1
+  rotate: false
+  xy: 103, 80
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+box_break2
+  rotate: false
+  xy: 137, 80
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+box_break3
+  rotate: false
+  xy: 171, 80
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+box_break4
+  rotate: false
+  xy: 205, 80
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+box_break5
+  rotate: false
+  xy: 239, 80
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+breakable_crate_small
+  rotate: false
+  xy: 273, 80
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+breakable_stone_small
+  rotate: false
+  xy: 307, 80
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+crate_break1
+  rotate: false
+  xy: 341, 80
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+crate_break2
+  rotate: false
+  xy: 375, 80
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+crate_break3
+  rotate: false
+  xy: 409, 80
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+crate_break4
+  rotate: false
+  xy: 443, 80
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+crate_break5
+  rotate: false
+  xy: 477, 80
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+crate_stone_break1
+  rotate: false
+  xy: 35, 10
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+crate_stone_break2
+  rotate: false
+  xy: 69, 12
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+crate_stone_break3
+  rotate: false
+  xy: 103, 28
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+crate_stone_break4
+  rotate: false
+  xy: 137, 28
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+crate_stone_break5
+  rotate: false
+  xy: 171, 28
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+Untitled
+  rotate: false
+  xy: 205, 36
+  size: 32, 24
+  orig: 32, 24
+  offset: 0, 0
+  index: -1
+raft
+  rotate: false
+  xy: 239, 54
+  size: 45, 6
+  orig: 45, 6
+  offset: 0, 0
+  index: -1
+cart
+  rotate: false
+  xy: 286, 50
+  size: 32, 10
+  orig: 32, 10
+  offset: 0, 0
+  index: -1
+boxS
+  rotate: false
+  xy: 320, 44
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+boxS_break1
+  rotate: false
+  xy: 338, 44
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+boxS_break2
+  rotate: false
+  xy: 356, 44
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+boxS_break3
+  rotate: false
+  xy: 374, 44
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+boxS_break4
+  rotate: false
+  xy: 392, 44
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+boxS_break5
+  rotate: false
+  xy: 410, 44
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+spike_platform_down
+  rotate: false
+  xy: 428, 44
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+spike_platform_left
+  rotate: false
+  xy: 446, 44
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+spike_platform_right
+  rotate: false
+  xy: 464, 44
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+spike_platform_up
+  rotate: false
+  xy: 482, 44
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+gate1
+  rotate: false
+  xy: 500, 28
+  size: 5, 32
+  orig: 5, 32
+  offset: 0, 0
+  index: -1
+lever1
+  rotate: false
+  xy: 239, 20
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+lever2
+  rotate: false
+  xy: 257, 20
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+gate2
+  rotate: false
+  xy: 275, 11
+  size: 5, 23
+  orig: 5, 23
+  offset: 0, 0
+  index: -1
+wheel2
+  rotate: false
+  xy: 282, 21
+  size: 10, 9
+  orig: 10, 9
+  offset: 0, 0
+  index: -1
+gate3
+  rotate: false
+  xy: 294, 20
+  size: 5, 10
+  orig: 5, 10
+  offset: 0, 0
+  index: -1

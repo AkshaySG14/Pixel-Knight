@@ -1,0 +1,89 @@
+
+jumper.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+readying4
+  rotate: false
+  xy: 1, 14
+  size: 26, 17
+  orig: 26, 17
+  offset: 0, 0
+  index: -1
+readying3
+  rotate: false
+  xy: 29, 15
+  size: 26, 16
+  orig: 26, 16
+  offset: 0, 0
+  index: -1
+flying1
+  rotate: false
+  xy: 29, 1
+  size: 26, 12
+  orig: 26, 12
+  offset: 0, 0
+  index: -1
+readying2
+  rotate: false
+  xy: 57, 17
+  size: 26, 14
+  orig: 26, 14
+  offset: 0, 0
+  index: -1
+flying2
+  rotate: false
+  xy: 57, 3
+  size: 24, 12
+  orig: 24, 12
+  offset: 0, 0
+  index: -1
+idle1
+  rotate: false
+  xy: 85, 14
+  size: 22, 17
+  orig: 22, 17
+  offset: 0, 0
+  index: -1
+idle2
+  rotate: false
+  xy: 109, 14
+  size: 22, 17
+  orig: 22, 17
+  offset: 0, 0
+  index: -1
+run1
+  rotate: false
+  xy: 133, 14
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1
+run2
+  rotate: false
+  xy: 155, 14
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1
+run3
+  rotate: false
+  xy: 177, 14
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1
+run4
+  rotate: false
+  xy: 199, 14
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1
+readying1
+  rotate: false
+  xy: 221, 16
+  size: 20, 15
+  orig: 20, 15
+  offset: 0, 0
+  index: -1

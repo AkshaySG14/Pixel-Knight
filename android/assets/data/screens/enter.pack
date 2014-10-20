@@ -1,0 +1,19 @@
+
+enter.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+enter
+  rotate: false
+  xy: 1, 1
+  size: 134, 50
+  orig: 134, 50
+  offset: 0, 0
+  index: -1
+enter2
+  rotate: false
+  xy: 137, 1
+  size: 134, 50
+  orig: 134, 50
+  offset: 0, 0
+  index: -1

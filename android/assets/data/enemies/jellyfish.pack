@@ -1,0 +1,61 @@
+
+jellyfish.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+idle1
+  rotate: false
+  xy: 1, 1
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+idle2
+  rotate: false
+  xy: 21, 1
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+idle3
+  rotate: false
+  xy: 41, 1
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+idle4
+  rotate: false
+  xy: 61, 1
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+run1
+  rotate: false
+  xy: 81, 1
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+run2
+  rotate: false
+  xy: 101, 1
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+run3
+  rotate: false
+  xy: 121, 1
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+run4
+  rotate: false
+  xy: 141, 1
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1

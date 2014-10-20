@@ -1,0 +1,607 @@
+
+mudworld.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+stone_column2
+  rotate: false
+  xy: 0, 0
+  size: 16, 64
+  orig: 16, 64
+  offset: 0, 0
+  index: -1
+berrybush
+  rotate: false
+  xy: 16, 32
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+bigbush
+  rotate: false
+  xy: 16, 0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+bush
+  rotate: false
+  xy: 48, 32
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+bush2
+  rotate: false
+  xy: 48, 0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+circbush
+  rotate: false
+  xy: 80, 32
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+circbush2
+  rotate: false
+  xy: 80, 0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+log
+  rotate: false
+  xy: 112, 48
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+log2
+  rotate: false
+  xy: 112, 32
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+longbush
+  rotate: false
+  xy: 112, 0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+tree
+  rotate: false
+  xy: 144, 0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+log3
+  rotate: false
+  xy: 160, 48
+  size: 48, 16
+  orig: 48, 16
+  offset: 0, 0
+  index: -1
+platform
+  rotate: false
+  xy: 160, 32
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+stone_column
+  rotate: false
+  xy: 176, 0
+  size: 16, 32
+  orig: 16, 32
+  offset: 0, 0
+  index: -1
+stone_bricks
+  rotate: false
+  xy: 208, 48
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+stone_bricks2
+  rotate: false
+  xy: 192, 32
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+stone_bricks3
+  rotate: false
+  xy: 240, 48
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+brick_block
+  rotate: false
+  xy: 192, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+deep_water
+  rotate: false
+  xy: 192, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+dirt
+  rotate: false
+  xy: 224, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+dirt_slope_left
+  rotate: false
+  xy: 272, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+dirt_slope_right
+  rotate: false
+  xy: 208, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+grass_dirt
+  rotate: false
+  xy: 208, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+grass_dirt_slope_left
+  rotate: false
+  xy: 240, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+grass_dirt_slope_right
+  rotate: false
+  xy: 288, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+ladder
+  rotate: false
+  xy: 224, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+lTorch1
+  rotate: false
+  xy: 224, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+lTorch2
+  rotate: false
+  xy: 256, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+lTorch3
+  rotate: false
+  xy: 304, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+lTorch4
+  rotate: false
+  xy: 240, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+lTorch5
+  rotate: false
+  xy: 240, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+post
+  rotate: false
+  xy: 272, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+railing
+  rotate: false
+  xy: 320, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+railingL
+  rotate: false
+  xy: 256, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+railingR
+  rotate: false
+  xy: 256, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+redbrickB
+  rotate: false
+  xy: 288, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+redbrickBL
+  rotate: false
+  xy: 336, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+redbrickBR
+  rotate: false
+  xy: 272, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+redbrickL
+  rotate: false
+  xy: 272, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+redbrickR
+  rotate: false
+  xy: 304, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+redbrickT
+  rotate: false
+  xy: 352, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+redbrickTL
+  rotate: false
+  xy: 288, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+redbrickTR
+  rotate: false
+  xy: 288, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+rock
+  rotate: false
+  xy: 320, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+spike_right
+  rotate: false
+  xy: 368, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+spikes_down
+  rotate: false
+  xy: 304, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+spikes_left
+  rotate: false
+  xy: 304, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+spikes_up
+  rotate: false
+  xy: 336, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stone
+  rotate: false
+  xy: 384, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stone2
+  rotate: false
+  xy: 320, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stone_block
+  rotate: false
+  xy: 320, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stone_brick
+  rotate: false
+  xy: 352, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stone_tile
+  rotate: false
+  xy: 400, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stonebridge
+  rotate: false
+  xy: 336, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+stonebridge_air
+  rotate: false
+  xy: 336, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+sTorch1
+  rotate: false
+  xy: 368, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+sTorch2
+  rotate: false
+  xy: 416, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+sTorch4
+  rotate: false
+  xy: 352, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+sTorch5
+  rotate: false
+  xy: 352, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+water
+  rotate: false
+  xy: 384, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+waterfall1
+  rotate: false
+  xy: 432, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+waterfall2
+  rotate: false
+  xy: 368, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+waterfall3
+  rotate: false
+  xy: 368, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wave
+  rotate: false
+  xy: 400, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wave2
+  rotate: false
+  xy: 448, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wave3
+  rotate: false
+  xy: 384, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wave4
+  rotate: false
+  xy: 384, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+window
+  rotate: false
+  xy: 416, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+windowB
+  rotate: false
+  xy: 464, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+windowBL
+  rotate: false
+  xy: 400, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+windowBR
+  rotate: false
+  xy: 400, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+windowF
+  rotate: false
+  xy: 432, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+windowL
+  rotate: false
+  xy: 480, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+windowR
+  rotate: false
+  xy: 496, 48
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+windowT
+  rotate: false
+  xy: 416, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+windowTL
+  rotate: false
+  xy: 416, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+windowTR
+  rotate: false
+  xy: 448, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wood
+  rotate: false
+  xy: 432, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wood_block2
+  rotate: false
+  xy: 432, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+woodblock
+  rotate: false
+  xy: 464, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wooden_bridge
+  rotate: false
+  xy: 448, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+wooden_bridge_air
+  rotate: false
+  xy: 448, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+woodplat
+  rotate: false
+  xy: 480, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+woodstairL
+  rotate: false
+  xy: 496, 32
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+woodstairR
+  rotate: false
+  xy: 464, 16
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+zed
+  rotate: false
+  xy: 464, 0
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,68 @@
+
+mudslinger.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+run1
+  rotate: false
+  xy: 1, 19
+  size: 21, 35
+  orig: 21, 35
+  offset: 0, 0
+  index: -1
+run2
+  rotate: false
+  xy: 24, 19
+  size: 21, 35
+  orig: 21, 35
+  offset: 0, 0
+  index: -1
+run3
+  rotate: false
+  xy: 47, 19
+  size: 21, 35
+  orig: 21, 35
+  offset: 0, 0
+  index: -1
+run4
+  rotate: false
+  xy: 70, 19
+  size: 21, 35
+  orig: 21, 35
+  offset: 0, 0
+  index: -1
+exploding1
+  rotate: false
+  xy: 1, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+exploding2
+  rotate: false
+  xy: 93, 38
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+exploding3
+  rotate: false
+  xy: 111, 38
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+launching
+  rotate: false
+  xy: 19, 7
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+flying
+  rotate: false
+  xy: 93, 28
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,68 @@
+
+charger.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+idle1
+  rotate: false
+  xy: 1, 1
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+run1
+  rotate: false
+  xy: 22, 1
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+run2
+  rotate: false
+  xy: 43, 1
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+run3
+  rotate: false
+  xy: 64, 1
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+run4
+  rotate: false
+  xy: 85, 1
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+run5
+  rotate: false
+  xy: 106, 1
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+run6
+  rotate: false
+  xy: 127, 1
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+run7
+  rotate: false
+  xy: 148, 1
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1
+run8
+  rotate: false
+  xy: 169, 1
+  size: 19, 30
+  orig: 19, 30
+  offset: 0, 0
+  index: -1

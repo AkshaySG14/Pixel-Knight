@@ -1,0 +1,33 @@
+
+loadingtext.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+loadingText1
+  rotate: false
+  xy: 1, 203
+  size: 400, 200
+  orig: 400, 200
+  offset: 0, 0
+  index: -1
+loadingText2
+  rotate: false
+  xy: 1, 1
+  size: 400, 200
+  orig: 400, 200
+  offset: 0, 0
+  index: -1
+loadingText3
+  rotate: false
+  xy: 403, 203
+  size: 400, 200
+  orig: 400, 200
+  offset: 0, 0
+  index: -1
+loadingText4
+  rotate: false
+  xy: 403, 1
+  size: 400, 200
+  orig: 400, 200
+  offset: 0, 0
+  index: -1

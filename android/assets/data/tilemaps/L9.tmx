@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="200" height="50" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="mudworld" tilewidth="16" tileheight="16">
+  <image source="../levels/mudworld.png" width="512" height="64"/>
+  <tile id="11">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="water" value=""/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="torch" value=""/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="torch" value=""/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="spike" value=""/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="torchS" value=""/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="waterfall" value=""/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="water" value=""/>
+    <property name="wave" value=""/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="climbable" value=""/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="torch" value=""/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="spike" value=""/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="torchS" value=""/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="waterfall" value=""/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="water" value=""/>
+    <property name="wave" value=""/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="torch" value=""/>
+   </properties>
+  </tile>
+  <tile id="85">
+   <properties>
+    <property name="spike" value=""/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="87">
+   <properties>
+    <property name="torchS" value=""/>
+   </properties>
+  </tile>
+  <tile id="88">
+   <properties>
+    <property name="water" value=""/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="water" value=""/>
+    <property name="wave" value=""/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="94">
+   <properties>
+    <property name="platform" value=""/>
+   </properties>
+  </tile>
+  <tile id="103">
+   <properties>
+    <property name="log" value=""/>
+   </properties>
+  </tile>
+  <tile id="104">
+   <properties>
+    <property name="log" value=""/>
+   </properties>
+  </tile>
+  <tile id="105">
+   <properties>
+    <property name="log" value=""/>
+   </properties>
+  </tile>
+  <tile id="109">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="110">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="111">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="112">
+   <properties>
+    <property name="blocked" value=""/>
+   </properties>
+  </tile>
+  <tile id="115">
+   <properties>
+    <property name="torch" value=""/>
+   </properties>
+  </tile>
+  <tile id="119">
+   <properties>
+    <property name="spike" value=""/>
+   </properties>
+  </tile>
+  <tile id="122">
+   <properties>
+    <property name="torchS" value=""/>
+   </properties>
+  </tile>
+  <tile id="123">
+   <properties>
+    <property name="waterfall" value=""/>
+   </properties>
+  </tile>
+  <tile id="124">
+   <properties>
+    <property name="water" value=""/>
+    <property name="wave" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="129" name="eraser" tilewidth="16" tileheight="16">
+  <image source="../levels/eraser.png" width="100" height="100"/>
+ </tileset>
+ <tileset firstgid="165" name="waterfall" tilewidth="16" tileheight="16">
+  <image source="../levels/waterfall.png" width="64" height="16"/>
+  <tile id="0">
+   <properties>
+    <property name="waterfall" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Wallpaper" width="200" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2lEKgzAQBUBvojdp7n+qflghhBit1KQxM7AgNIUt7GMjdJoAAAAAAAAAAAAAAAAAAOjdHNXSthVoas7UK6rQrDOor5QFmWAkR7tBFhjFmSzIAyOQBVjJAqxkAVayACtZYBTpnC8Hn8sCvcvN9NXay4L/bNCr3Exv9U0O0iwsn0rPh/t/EvxMKQtncpDuhvhMmGSCvm3zu5eDsPNcOr/UaBwqKM37mcp9N9RrH25Vukcd5WK7U6V3LO/hPEW6A+LnK/sjTHYIz7E326FZR/A/vDMAAAAAAAAAAABAXW96oTum
+  </data>
+ </layer>
+ <layer name="Background" width="200" height="50" opacity="0.99">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="Foreground" width="200" height="50">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="Objects" width="200" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1bsOAjEMRcH8Ou+Kiooqv0oKR2uykSgXKTPS7d0cuRQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2DvFzm2Xtmvbre1+5FHwJx4xjcDeM9Yb0QlsXrHeiE5g8471RmadaIVV1VhvZNbJ2EpuBlbQG5l1MraSm4FV5F+SOxlbyc3AasZOxlZyM7CqWuat5GaA71ZyM8BcPfoAAAAAAPjhAzdWQ2c=
+  </data>
+ </layer>
+ <objectgroup name="Spawns" width="200" height="50">
+  <object name="Main Spawn" x="50" y="710" width="71" height="39">
+   <properties>
+    <property name="spawnmain" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn" x="556" y="595" width="49" height="22">
+   <properties>
+    <property name="jumper" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn" x="661" y="552" width="18" height="17">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn" x="760" y="555" width="18" height="17">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn" x="676" y="508" width="18" height="17">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn" x="772" y="507" width="18" height="17">
+   <properties>
+    <property name="bat" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn" x="918" y="423" width="18" height="17">
+   <properties>
+    <property name="roller" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn" x="1207" y="606" width="18" height="17">
+   <properties>
+    <property name="roller" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn" x="1450" y="490" width="18" height="17">
+   <properties>
+    <property name="roller" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn" x="1686" y="634" width="18" height="17">
+   <properties>
+    <property name="roller" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn" x="1945" y="520" width="18" height="17">
+   <properties>
+    <property name="jumper" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn" x="2152" y="598" width="18" height="17">
+   <properties>
+    <property name="slinger" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn" x="2056" y="228" width="18" height="17">
+   <properties>
+    <property name="slinger" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn" x="2313" y="422" width="18" height="17">
+   <properties>
+    <property name="birdH" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn" x="2313" y="534" width="18" height="17">
+   <properties>
+    <property name="birdH" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn" x="1944" y="570" width="18" height="17">
+   <properties>
+    <property name="doll" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn" x="1943" y="617" width="18" height="17">
+   <properties>
+    <property name="doll" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn" x="1946" y="663" width="18" height="17">
+   <properties>
+    <property name="doll" value=""/>
+   </properties>
+  </object>
+  <object name="Spawn" x="1942" y="713" width="18" height="17">
+   <properties>
+    <property name="doll" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Camera Bounds" width="200" height="50">
+  <object name="Left Bounds" x="1" y="593" width="22" height="183">
+   <properties>
+    <property name="leftbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Lower Bounds" x="2" y="778" width="207" height="20">
+   <properties>
+    <property name="lowerbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Right Bounds" x="2454" y="89" height="789">
+   <properties>
+    <property name="rightbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change" x="489" y="382" width="374" height="257">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change" x="19" y="493" width="464" height="267">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change" x="867" y="360" width="124" height="92">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change" x="993" y="467" width="493" height="153">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change" x="1489" y="466" width="345" height="188">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change" x="1886" y="626" width="289" height="147">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change" x="2146" y="533" width="253" height="90">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change" x="2241" y="310" width="157" height="105">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+  <object name="Camera Change" x="2017" y="169" width="124" height="87">
+   <properties>
+    <property name="camerachange" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Creature Bounds" width="200" height="50" opacity="0.97">
+  <object name="Doll Bounds" x="1924" y="566" width="8" height="23">
+   <properties>
+    <property name="dollbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Doll Bounds" x="1971" y="567" width="8" height="23">
+   <properties>
+    <property name="dollbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Doll Bounds" x="1926" y="612" width="8" height="23">
+   <properties>
+    <property name="dollbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Doll Bounds" x="1974" y="611" width="8" height="23">
+   <properties>
+    <property name="dollbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Doll Bounds" x="1925" y="662" width="8" height="23">
+   <properties>
+    <property name="dollbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Doll Bounds" x="1974" y="661" width="8" height="23">
+   <properties>
+    <property name="dollbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Doll Bounds" x="1924" y="709" width="8" height="23">
+   <properties>
+    <property name="dollbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Doll Bounds" x="1972" y="709" width="8" height="23">
+   <properties>
+    <property name="dollbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Bird Horizontal Bounds" x="2260" y="420" width="8" height="23">
+   <properties>
+    <property name="birdHbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Bird Horizontal Bounds" x="2390" y="419" width="8" height="23">
+   <properties>
+    <property name="birdHbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Bird Horizontal Bounds" x="2292" y="530" width="8" height="23">
+   <properties>
+    <property name="birdHbounds" value=""/>
+   </properties>
+  </object>
+  <object name="Bird Horizontal Bounds" x="2403" y="529" width="8" height="23">
+   <properties>
+    <property name="birdHbounds" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Slopes" width="200" height="50">
+  <object name="Slope Right" x="384" y="640" width="112" height="112">
+   <properties>
+    <property name="sloperight" value=""/>
+   </properties>
+  </object>
+  <object name="Slope Right" x="1296" y="512" width="112" height="112">
+   <properties>
+    <property name="sloperight" value=""/>
+   </properties>
+  </object>
+  <object name="Slope Right" x="1744" y="576" width="80" height="80">
+   <properties>
+    <property name="sloperight" value=""/>
+   </properties>
+  </object>
+  <object name="Slope Right" x="2002" y="635" width="133" height="131">
+   <properties>
+    <property name="sloperight" value=""/>
+   </properties>
+  </object>
+  <object name="Slope Left" x="992" y="448" width="177" height="176">
+   <properties>
+    <property name="slopeleft" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Gems" width="200" height="50" opacity="0.97">
+  <object name="Gem" x="166" y="719" width="26" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="244" y="720" width="26" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="564" y="593" width="26" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="784" y="563" width="26" height="26">
+   <properties>
+    <property name="sapphire" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="721" y="431" width="26" height="26">
+   <properties>
+    <property name="sapphire" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="920" y="419" width="26" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="1656" y="623" width="26" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="1690" y="620" width="26" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="1723" y="621" width="26" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="1844" y="543" width="26" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="1957" y="734" width="26" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="2213" y="560" width="26" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="2263" y="528" width="26" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="2264" y="366" width="26" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="2072" y="224" width="26" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="1879" y="129" width="26" height="26">
+   <properties>
+    <property name="emerald" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="1946" y="508" width="26" height="26">
+   <properties>
+    <property name="ruby" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="1448" y="480" width="26" height="26">
+   <properties>
+    <property name="sapphire" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="1221" y="590" width="26" height="26">
+   <properties>
+    <property name="sapphire" value=""/>
+   </properties>
+  </object>
+  <object name="Gem" x="1814" y="48" width="26" height="26">
+   <properties>
+    <property name="ruby" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Platforms" width="200" height="50">
+  <object name="Platform1" x="2318" y="491" width="40" height="23">
+   <properties>
+    <property name="platform1" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Destructibles" width="200" height="50"/>
+ <objectgroup name="Platform Bounds" width="200" height="50">
+  <object name="Platform1 Bounds" x="2293" y="377" width="99" height="12">
+   <properties>
+    <property name="platform1bounds" value=""/>
+   </properties>
+  </object>
+  <object name="Platform1 Bounds" x="2299" y="571" width="99" height="12">
+   <properties>
+    <property name="platform1bounds" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Respawn Points" width="200" height="50">
+  <object name="Respawn Point" x="546" y="463" width="57" height="158">
+   <properties>
+    <property name="rspwn" value=""/>
+   </properties>
+  </object>
+  <object name="Respawn Point" x="866" y="286" width="57" height="158">
+   <properties>
+    <property name="rspwn" value=""/>
+   </properties>
+  </object>
+  <object name="Respawn Point" x="1926" y="604" width="252" height="160">
+   <properties>
+    <property name="rspwn" value=""/>
+   </properties>
+  </object>
+  <object name="Respawn Point" x="2245" y="236" width="57" height="158">
+   <properties>
+    <property name="rspwn" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="End Door" width="200" height="50">
+  <object name="End Door" x="1774" y="110" width="34" height="48">
+   <properties>
+    <property name="enddoor" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

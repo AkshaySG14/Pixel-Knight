@@ -1,0 +1,68 @@
+
+floatinghead.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+attack1
+  rotate: false
+  xy: 1, 4
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+attack2
+  rotate: false
+  xy: 16, 4
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+attack3
+  rotate: false
+  xy: 31, 4
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+idle1
+  rotate: false
+  xy: 46, 4
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+idle2
+  rotate: false
+  xy: 61, 4
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+idle3
+  rotate: false
+  xy: 76, 4
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+shot1
+  rotate: false
+  xy: 91, 9
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+shot2
+  rotate: false
+  xy: 91, 1
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+shot3
+  rotate: false
+  xy: 99, 9
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1

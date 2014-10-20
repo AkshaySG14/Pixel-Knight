@@ -1,0 +1,19 @@
+
+bird.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+run1
+  rotate: false
+  xy: 1, 1
+  size: 36, 28
+  orig: 36, 28
+  offset: 0, 0
+  index: -1
+run2
+  rotate: false
+  xy: 39, 2
+  size: 36, 27
+  orig: 36, 27
+  offset: 0, 0
+  index: -1

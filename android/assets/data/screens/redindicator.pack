@@ -1,0 +1,19 @@
+
+redindicator.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+selector1
+  rotate: false
+  xy: 1, 1
+  size: 21, 22
+  orig: 21, 22
+  offset: 0, 0
+  index: -1
+selector2
+  rotate: false
+  xy: 24, 1
+  size: 21, 22
+  orig: 21, 22
+  offset: 0, 0
+  index: -1
