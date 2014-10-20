@@ -1,8 +1,7 @@
 Pixel-Knight
 ============
-Pixel Knight is a desktop platformer game much like recent titles such as Shovel Knight or even old ones like super mario world.
-Pixel Knight follows the tale of a lone knight in search of adventure in the Iben Peninsula, and features numerous enemies, levels,
-and puzzles. 
+Pixel Knight is a desktop platformer game much like recent titles such as Shovel Knight or even older ones like super mario world.
+Pixel Knight follows the tale of a lone knight in search of adventure in the Iben Peninsula, and features numerous enemies, levels, and puzzles. 
 
 As a computer game, Pixel Knight is operated through the use of arrow keys, the keyboard, and the mouse/trackpad, 
 although some of the settings can be changed in game. Arrow keys are used in the title and over world screen, while the 
