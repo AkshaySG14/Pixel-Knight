@@ -14,8 +14,6 @@ The code should be quite easy to read and understand, as long as the reader has 
 
 NOTE: Unforunately, I was not able to test the game on a desktop computer before releasing it. For some undeterminable reason, the desktop version does have a tile visual glitch that renders lines across the game where there shouldn't be. Additionally, resizing the window causes a bug with the background. Though these bugs could have easily been fixed before, too much time has passed and the Libgdx engine I currently utilize is incompatible with the game. Regardless, to fully experience the game one must play it on a laptop or a smaller screen and refrain from resizing the window. 
 
-Credits: 
-
-Thanks to Riciery Leal, 04, and Font Bureau for the various fonts used in the game.
+Credits: Thanks to Riciery Leal, 04, and Font Bureau for the various fonts used in the game.
 
 Made by AKSHAY SUBRAMANIAM
